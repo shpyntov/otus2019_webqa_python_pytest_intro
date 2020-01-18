@@ -1,1 +1,3 @@
-# otus2019_webqa_python_pytest_intro
+# Введение в Pytest
+
+Тестирование структур данных
