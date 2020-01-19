@@ -21,3 +21,9 @@ def random_int():
 @pytest.fixture
 def random_string():
     return ' Test String '
+
+
+@pytest.fixture
+def random_dict():
+    return {a: a ** 2 for a in range(7)}
+#   return {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36}
