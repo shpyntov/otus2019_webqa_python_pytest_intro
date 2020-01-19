@@ -3,10 +3,15 @@ import random
 
 
 @pytest.fixture
-def rndm_list():
+def random_list():
     return random.sample(range(100), 5)
 
 
 @pytest.fixture
-def rndm_int():
+def random_set():
+    return set(random.sample(range(100), 5))
+
+
+@pytest.fixture
+def random_int():
     return random.randint(-100, 100)
